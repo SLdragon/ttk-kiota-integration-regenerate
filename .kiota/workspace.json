@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "clients": {},
+  "plugins": {
+    "RepairService": {
+      "types": [
+        "APIPlugin"
+      ],
+      "authType": null,
+      "authReferenceId": null,
+      "descriptionLocation": "c:\\Users\\rentu\\OneDrive - Microsoft\\Desktop\\example-openapi-spec\\real-no-auth.yaml",
+      "includePatterns": [
+        "/",
+        "/repairs"
+      ],
+      "excludePatterns": [],
+      "outputPath": "./appPackage"
+    }
+  }
+}

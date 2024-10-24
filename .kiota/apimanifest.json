@@ -1,0 +1,18 @@
+{
+  "applicationName": "application",
+  "apiDependencies": {
+    "RepairService": {
+      "apiDescriptionUrl": "c:\\Users\\rentu\\OneDrive - Microsoft\\Desktop\\example-openapi-spec\\real-no-auth.yaml",
+      "apiDeploymentBaseUrl": "https://sme85beaf.azurewebsites.net/api/",
+      "requests": [
+        {
+          "method": "GET",
+          "uriTemplate": "repairs"
+        }
+      ],
+      "extensions": {
+        "x-ms-kiota-hash": "331036BEAD39408EDEE72E81FFF6B92D7F5C59347088C3B3BFD5C35CDDE650A3"
+      }
+    }
+  }
+}

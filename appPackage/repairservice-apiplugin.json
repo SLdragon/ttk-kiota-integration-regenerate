@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/json-schemas/copilot-extensions/v2.1/plugin.schema.json",
+  "schema_version": "v2.1",
+  "name_for_human": "Repair Service",
+  "description_for_human": "A simple service to manage repairs",
+  "description_for_model": "A simple service to manage repairs",
+  "contact_email": "publisher-email@example.com",
+  "namespace": "RepairService",
+  "capabilities": {
+    "conversation_starters": [
+      {
+        "text": "List all repairs"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "listRepairs",
+      "description": "Returns a list of repairs with their details and images"
+    }
+  ],
+  "runtimes": [
+    {
+      "type": "OpenApi",
+      "auth": {
+        "type": "None"
+      },
+      "spec": {
+        "url": "repairservice-openapi.yml"
+      },
+      "run_for_functions": [
+        "listRepairs"
+      ]
+    }
+  ]
+}
